@@ -1,0 +1,32 @@
+Title: Stakeholder Interview Notes – Sales Dashboard (Big Data)  
+Prepared By: Winston Sanjith  
+
+
+Project Objective:
+Build a sales analytics dashboard using large-scale data to track revenue, identify top-performing products, monitor segment performance, and provide strategic insights across multiple countries.
+
+Stakeholders Interviewed:
+- Sales Director
+- Regional Sales Managers
+- Marketing Head
+- CFO
+- Data Engineering Lead
+
+Key Business Goals:
+- Analyze sales across countries to identify profitable and underperforming regions
+- Understand how different customer segments (Retail, Wholesale, Online) contribute to revenue
+- Track monthly sales trends to spot seasonality or anomalies
+- Identify top-selling products and adjust inventory planning
+- Create a user-friendly dashboard accessible to non-technical users
+
+Insights Gathered:
+- Sales Director needs real-time access to country-wise performance
+- Marketing team wants to focus campaigns on segments with growth potential
+- Finance needs a reliable way to report monthly/quarterly revenue trends
+- Regional managers want a way to drill down by product or time period
+
+Requirements Summary:
+- Dashboard filters for: Country, Customer Segment, Date Range
+- KPIs: Total Revenue, Average Order Value, Quantity Sold, Top Product, Region Performance
+- Tool Preference: Power BI or Tableau (already licensed)
+- Data Source: Pre-processed CSV simulating big data

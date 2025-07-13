@@ -1,37 +1,33 @@
 Project: Sales Dashboard & KPI Analytics – Big Data Version  
 Prepared By: Winston Sanjith 
 
-🧮 KPI Definitions:
+KPI Definitions:
 
 1. **Total Revenue**  
    - Formula: `SUM(TotalAmount)`  
-   - Description: Total sales amount across all orders.
+   - Value: rs.144661.19
 
 2. **Average Order Value**  
    - Formula: `SUM(TotalAmount) / COUNT(DISTINCT OrderID)`  
-   - Description: Average value of each customer order.
+   - Value: rs.1446.61
 
 3. **Total Quantity Sold**  
    - Formula: `SUM(Quantity)`  
-   - Description: Total number of units sold.
+   - Value: 506
 
 4. **Top-Selling Products**  
    - Formula: Rank by `SUM(TotalAmount)` grouped by ProductID  
-   - Description: Products contributing the most to revenue.
+   - Value: ProductID:110 - rs.8066.35
 
-5. **Sales by Country**  
-   - Formula: `SUM(TotalAmount)` grouped by Region  
-   - Description: Total sales per country.
+5. **Top Country by Revenue**  
+   - Value: Brazil - rs.20830.93
+   
 
-6. **Customer Segment Performance**  
-   - Formula: `SUM(TotalAmount)` grouped by CustomerSegment  
-   - Description: Tracks how each segment (Retail, Wholesale, Online) is performing.
+6. **Lowest Segment Performance**  
+   - Value: Retail - rs.40076.84  
+   
 
-7. **Monthly Sales Trend**  
-   - Formula: `SUM(TotalAmount)` grouped by OrderDate (Month)  
-   - Description: View of how sales vary month over month.
-
-📊 Data Source:  
+Data Source:  
 `sales_data_big_100_countries.csv` (100 sample rows simulating big data)
 
-Tool: Power BI / Tableau Desktop
+Tool: Tableau Desktop

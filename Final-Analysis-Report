@@ -1,0 +1,29 @@
+Title: Final Report – Sales Dashboard & KPI Analytics (Big Data)  
+Prepared By: Winston Sanjith 
+
+Executive Summary:
+This project involved developing a sales analytics dashboard based on simulated big data to provide visibility into revenue trends, customer segments, product performance, and country-wise sales across a fiscal year.
+
+Key Results:
+- 📊 Total Revenue: rs 144661.19
+- 💰 Average Order Value: rs 1446.61
+- 📦 Total Quantity Sold: 506 units
+- 🛒 Total Orders Processed: 100
+- ⭐ Top-Selling Product ID: 110 (rs 8066.35)
+- 🌍 Top-Performing Country: Brazil (rs 20830.93)
+- ⚠️ Lowest Performing Segment: Retail (rs 40076.84)
+
+Monthly Revenue Trends:
+- Peaks observed in Nov–Dec (possible seasonal demand)
+- Lowest activity in early Q2
+
+Recommendations:
+1. Focus marketing efforts on underperforming segments (especially Online)
+2. Increase stock levels of top-selling products in top-performing countries
+3. Monitor monthly dips and run promotions during low-demand periods
+4. Expand performance tracking by adding product return and profit margin metrics
+
+Tools Used:
+- Power BI / Tableau for visual dashboards
+- CSV data simulating big data (~100 rows with multiple dimensions)
+- Custom DAX/Calculated Fields for KPIs
